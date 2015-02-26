@@ -5,7 +5,6 @@ Parse eBay data from XML files to insert into database. The database contains re
 Relational tables -
 
 Item(ItemID*, name, description, currently, buy_price, first_bid, number_of_bids, SellerID, started, ends)
-
 ItemCategory(ItemID*, CategoryID*)
 
 Category(CategoryID*, CategoryName)
